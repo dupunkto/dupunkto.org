@@ -2,7 +2,9 @@
 
 bix build
 
-rsync -a dist/gem /var/gemini
-rsync -a dist/web /var/www
+chmod g+w -R dist
+chown :mod -R dist
 
+cp -af dist/gem/* /var/gemini
+cp -af dist/web/* /var/www
 

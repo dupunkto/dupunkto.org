@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>{{ title | escape_once }} — {{ site_title | escape_once }}</title>
+    <title>{{ title | escape_once }}</title>
 
     <meta name="description" content="{{ content | truncate: 200 }}..." />
     <link rel="canonical" href="{{ site_root }}{{ url }}" />
@@ -17,9 +17,5 @@
     <article>
       {{ content_rendered }}
     </article>
-
-    <footer>
-      <p>{{ site_copyright | escape_once }}</p>
-    </footer>
   </body>
 </html>

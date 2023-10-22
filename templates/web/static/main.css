@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  font-family: monospace;
+  background: black;
+  color: white;
+  font-size: 1rem;
+}
+
+a {
+  color: darkgray;
+}
+
+h2 {
+  margin-top: 2.5em;
+}
+
+pre {
+  font-size: .85em;
+  margin-bottom: 6em;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+article {
+  max-width: 80ch
+}

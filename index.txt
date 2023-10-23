@@ -1,5 +1,5 @@
 ---
-title: \{du\}punkto
+title: "{du}punkto"
 ---
 
 ```ASCII art: the word "{du}punkto" using a large font
@@ -63,3 +63,8 @@ This project is hugely inspired by the following initiatives:
 - [tilde.club](https://tilde.club)
 - [tilde.town](https://tilde.town)
 
+
+
+---
+
+ED25519 fingerprint: SHA256:tWq/Ct++UCMAvJjk7s5a07pJimT7Dp5prTjRO7meQ2U

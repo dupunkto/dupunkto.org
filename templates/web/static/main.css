@@ -19,14 +19,20 @@ h2 {
 pre {
   font-size: .85em;
   margin-bottom: 6em;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-body {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+pre::-webkit-scrollbar {
+  display: none;
+}
+
+pre:last-child {
+  margin-top: 6em;
 }
 
 article {
-  max-width: 80ch
+  max-width: 80ch;
+  margin: 0 auto;
 }

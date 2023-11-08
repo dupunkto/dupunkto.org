@@ -44,15 +44,15 @@ Currently, {du}punkto is running these services:
 
 ## Why the name?
 
-{du}punkto is derived from the Esperanto word "dupunkto", which means "colon". We aim to be the beginning of something, instead of the end of a line (a semicolon indicates the end of a statement in a lot of programming languages).
+{du}punkto is derived from the Esperanto word "dupunkto", which means "colon". We aim to be the beginning of something, instead of the end (a semicolon indicates the end of a statement in a lot of programming languages).
 
 However, mostly the domain was still available and it sounded fun.
 
 ## How can I join?
 
-Currently, {du}punkto is invite-only. If you'd like to join, shoot Robin an email:
+Currently, {du}punkto is very young and small-scale, so you might not be let in (yet), but we'd love to hear from you! If you'd like to join, shoot Robin an email:
 
-- [I'd like to join](mailto:hello@geheimesite.nl?subject=Request%20to%20join%20{du}punkto)
+[I'd like to join](mailto:hello@geheimesite.nl?subject=Request%20to%20join%20{du}punkto)
 
 ## Inspiration
 

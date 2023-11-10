@@ -1,0 +1,25 @@
+---
+title: Member directory
+hide_title: true
+---
+
+[Back to the homepage](/)
+
+```ASCII art: the word "Members" using a large font 
+                                         ,,                                 
+`7MMM.     ,MMF'                        *MM                                 
+  MMMb    dPMM                           MM                                 
+  M YM   ,M MM  .gP"Ya `7MMpMMMb.pMMMb.  MM,dMMb.   .gP"Ya `7Mb,od8 ,pP"Ybd 
+  M  Mb  M' MM ,M'   Yb  MM    MM    MM  MM    `Mb ,M'   Yb  MM' "' 8I   `" 
+  M  YM.P'  MM 8M""""""  MM    MM    MM  MM     M8 8M""""""  MM     `YMMMa. 
+  M  `YM'   MM YM.    ,  MM    MM    MM  MM.   ,M9 YM.    ,  MM     L.   I8 
+.JML. `'  .JMML.`Mbmmd'.JMML  JMML  JMML.P^YbmdP'   `Mbmmd'.JMML.   M9mmmP' 
+                                                                            
+```
+
+Here are some of our members:
+
+- [~msb](/~msb)
+- [~0bxli](/~0bxli)
+- [~robin](/~robin)
+- [~hailey](/~hailey)

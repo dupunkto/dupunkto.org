@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>{{ title | escape_once }}</title>
-    <link rel="canonical" href="{{ site_root }}{{ url }}" />
+    <link rel="canonical" href="https://dupunkto.org{{ path }}" />
 
     <link rel="stylesheet" href="/main.css" />
   </head>
 
   <body>
     <article>
+      <h1 {% if hide_title == true %}style="display: none"{% endif %}>
+        {{ title }}
+      </h1>
+
       {{ content_rendered }}
     </article>
   </body>

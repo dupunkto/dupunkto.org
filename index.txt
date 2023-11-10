@@ -1,5 +1,6 @@
 ---
 title: "{du}punkto"
+hide_title: true
 ---
 
 ```ASCII art: the word "{du}punkto" using a large font
@@ -18,11 +19,9 @@ _.d"' ,AP    MM   MM    MM  `"b._MM   `Wb  MM    MM    MM    MM    MM ;Y     MM 
 
 ```
 
-Welcome to {du}punkto, an attempt to build a pubnix/tilde-like server.
-
 ## What?
 
-In short {du}punkto is a shared Linux box that members get shell access to. 
+In short, {du}punkto is a shared Linux box that members get shell access to. 
 It also has a bunch of services running on it, like a webserver, gemini server and
 git frontend.
 
@@ -31,9 +30,9 @@ experiment, and, above all, having fun.
 
 Currently, {du}punkto is running these services:
 
-- [Webhosting](https://dupunkto.org)
-- [Gemini hosting](gemini://dupunkto.org)
-- [git hosting](//git.dupunkto.org)
+- [Webhosting](https://dupunkto.org/members)
+- [Gemini hosting](gemini://dupunkto.org/members.gmi)
+- [git hosting](https://git.dupunkto.org)
 
 ## Who?
 
@@ -41,6 +40,8 @@ Currently, {du}punkto is running these services:
 
 - [Robin (~robin)](~robin)
 - [Sem (~msb)](~msb)
+
+[Directory of all members](/members)
 
 ## Why the name?
 

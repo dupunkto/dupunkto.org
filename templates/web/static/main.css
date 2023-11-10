@@ -1,15 +1,23 @@
+html {
+  font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+}
+
 html, body {
   margin: 0;
   width: 100%;
   min-height: 100vh;
   font-family: monospace;
-  background: black;
-  color: white;
-  font-size: 1rem;
+  background: #211e20;
+  color: #ffd191;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 5px;
 }
 
 a {
-  color: darkgray;
+  color: #ff924f;
 }
 
 h2 {
@@ -18,7 +26,6 @@ h2 {
 
 pre {
   font-size: .85em;
-  margin-bottom: 6em;
   overflow-x: auto;
   -ms-overflow-style: none;
   scrollbar-width: none;

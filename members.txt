@@ -19,7 +19,7 @@ hide_title: true
 
 Here are some of our members:
 
-- [~msb](/~msb)
-- [~0bxli](/~0bxli)
 - [~robin](/~robin)
+- [~0bxli](/~0bxli)
 - [~hailey](/~hailey)
+- [~msb](/~msb)

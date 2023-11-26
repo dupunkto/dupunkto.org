@@ -66,5 +66,5 @@ This project is hugely inspired by the following initiatives:
 
 
 ```ED25519 fingerprint for logging in over SSH
-ED25519 fingerprint: SHA256:tWq/Ct++UCMAvJjk7s5a07pJimT7Dp5prTjRO7meQ2U
+ED25519 fingerprint: SHA256:uRozyvmvTGIzl0SbSGpkaRWTWwfMshnoZpv12MMXAD0
 ```

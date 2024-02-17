@@ -1,0 +1,20 @@
+#!/bin/bash -eu
+
+SRC_DIR="src"
+DIST_DIR="dist"
+
+REMOTE="dupunkto.org"
+REMOTE_PATH="/usr/local/www/dupunkto.org/"
+
+build() {
+  rsync -au --delete "$SRC_DIR/" "$DIST_DIR/"
+}
+
+deploy() {
+  if [ -d "$DIST_DIR" ]; then
+    rsync -ciavuP --delete "$DIST_DIR/" ${1:-${USER}}@$REMOTE:$REMOTE_PATH
+  else
+    echo >&2 "Error: '$DIST_DIR' does not exist."
+    echo >&2
+  fi
+}

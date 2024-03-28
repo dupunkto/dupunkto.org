@@ -3,7 +3,7 @@
 SRC_DIR="src"
 DIST_DIR="dist"
 
-REMOTE="dupunkto.org"
+REMOTE="du11"
 REMOTE_PATH="/usr/local/www/dupunkto.org/"
 
 build() {
@@ -12,7 +12,7 @@ build() {
 
 deploy() {
   if [ -d "$DIST_DIR" ]; then
-    rsync -ciavuP --delete "$DIST_DIR/" ${1:-${USER}}@$REMOTE:$REMOTE_PATH
+    rsync -ciavuP --delete "$DIST_DIR/" $REMOTE:$REMOTE_PATH
   else
     echo >&2 "Error: '$DIST_DIR' does not exist."
     echo >&2

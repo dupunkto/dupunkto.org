@@ -1,20 +1,20 @@
 #!/bin/bash -eu
 
-SRC_DIR="src"
-DIST_DIR="dist"
+SRC=src
+DIST=dist
 
-REMOTE="du11"
-REMOTE_PATH="/usr/local/www/dupunkto.org/"
+REMOTE=s11
+DOMAIN=dupunkto.org
 
 build() {
-  rsync -au --delete "$SRC_DIR/" "$DIST_DIR/"
+  rsync -au --delete $SRC/ $DIST/
 }
 
 deploy() {
-  if [ -d "$DIST_DIR" ]; then
-    rsync -ciavuP --delete "$DIST_DIR/" $REMOTE:$REMOTE_PATH
+  if [ -d $DIST ]; then
+    rsync -ciavuP --delete $DIST/ $REMOTE:domains/$DOMAIN/public_html
   else
-    echo >&2 "Error: '$DIST_DIR' does not exist."
+    echo >&2 "Error: '$DIST' does not exist."
     echo >&2
   fi
 }

@@ -1,12 +1,14 @@
-Hi. We're Axcelott and MSB, the founders of this little group.
+Hi. We're Axcelott and MSB, the founders of this thing.
 
-We firmly believe everything should be open and usable for everyone.
-Therefore, we release our work in the public domain and license our code
-Unlicense. However, we would like to request you not to use our work for any
-purpose related to the creation of a machine learning model or ancillary
-technologies, generally referred to under the umbrella term of "AI".
+We firmly believe everything should be open and usable for 
+everyone. Therefore, we release our work in the public 
+domain and license our code Unlicense. However, we would 
+like to request you not to use our work for anypurpose 
+related to the creation of a machine learning model or 
+ancillary technologies, generally referred to under the 
+umbrella term of "AI".
 
-> This is a site created by flawed human beings for other flawed human beings,
-> not flawed statistics machines.
+> This is a site created by flawed human beings for other 
+> flawed human beings, not flawed statistics machines.
 
 — Marcel Bischoff <herrbischoff.com>

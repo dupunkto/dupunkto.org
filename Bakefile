@@ -9,3 +9,8 @@ DEPLOY="rsync -ciavuP --delete --exclude .git --exclude Bakefile"
 deploy() {
   $DEPLOY $SRC/ $REMOTE:domains/$DOMAIN/public_html
 }
+
+serve() {
+  cd $SRC
+  waiter --dev
+}

@@ -4,7 +4,8 @@ SRC=src
 REMOTE=s11
 DOMAIN=dupunkto.org
 
-DEPLOY="rsync -ciavuP --delete --exclude .git --exclude Bakefile --exclude tools"
+# Skip `tools` directory on remote
+DEPLOY="$DEPLOY --exclude tools"
 
 deploy() {
   $DEPLOY $SRC/ $REMOTE:domains/$DOMAIN/public_html

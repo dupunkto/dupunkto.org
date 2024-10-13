@@ -5,7 +5,7 @@ REMOTE=s11
 DOMAIN=dupunkto.org
 
 # Skip `tools` directory on remote
-DEPLOY="$DEPLOY --exclude tools --exclude press"
+DEPLOY="$DEPLOY --exclude tools --exclude press --exclude reader"
 
 deploy() {
   $DEPLOY $SRC/ $REMOTE:domains/$DOMAIN/public_html

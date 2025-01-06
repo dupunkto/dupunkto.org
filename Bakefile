@@ -7,8 +7,8 @@ DOMAIN=dupunkto.org
 DEPLOY="$DEPLOY --exclude tools --exclude press --exclude reader"
 
 deploy() {
-  $DEPLOY $DIST/ s11:domains/$DOMAIN/public_html
-  $DEPLOY $DIST/ nov:/volume1/www/$DOMAIN
+  $DEPLOY $SRC/ s11:domains/$DOMAIN/public_html
+  $DEPLOY $SRC/ nov:/volume1/www/$DOMAIN
 }
 
 serve() {

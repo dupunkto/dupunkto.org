@@ -1,14 +1,9 @@
 #!/usr/bin/env bash
 
 SRC=src
-DOMAIN=dupunkto.org
-
-# Skip `tools` directory on remote
-DEPLOY="$DEPLOY --exclude tools --exclude press --exclude reader"
 
 deploy() {
-  $DEPLOY $SRC/ s11:domains/$DOMAIN/public_html
-  $DEPLOY $SRC/ nov:/volume1/www/$DOMAIN
+  lift deploy
 }
 
 serve() {

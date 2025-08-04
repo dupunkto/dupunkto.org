@@ -1,0 +1,5 @@
+name: dupunkto.org
+host: nov
+type: static
+src: src
+target: /volume1/www/dupunkto.org

@@ -1,2 +1,4 @@
-Contact: https://roblog.nl/#contact
+Contact: https://geheimesite.nl/contact
 Canonical: https://dupunkto.org/security.txt
+Expires: 2029-01-01T12:00:00.000Z
+Preferred-Languages: nl,en

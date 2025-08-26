@@ -1,12 +1,9 @@
 #!/usr/bin/env bash
 
-SRC=src
+serve() {
+  waiter --dev
+}
 
 deploy() {
   lift deploy
-}
-
-serve() {
-  cd $SRC
-  waiter --dev
 }

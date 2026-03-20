@@ -16,12 +16,45 @@
 
     <style>
       body {
-        max-width: 630px;
+        max-width: 960px;
         padding: 7px;
+        margin: 3em auto;
+      }
+
+      h1 {
+        font-size: 3rem;
       }
 
       .t {
+        color: light-dark(#7848ba, #b783ff);
+        text-decoration-color: light-dark(#653d9e, #ae78f9);
         font-weight: bold;
+        font-size: 1.2em;
+      }
+
+      section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        column-gap: 1em;
+      }
+
+      section h2 {
+        grid-column: 1/-1;
+        margin-bottom: 0;
+      }
+
+      section:last-of-type {
+        margin-bottom: 3em;
+      }
+
+      header {
+        text-align: right;
+        padding-right: 1em;
+      }
+
+      img {
+        border-radius: 10px;
+        text-align: right;
       }
     </style>
 
@@ -33,12 +66,16 @@
     <meta name="theme-color" content="#8853d4">
   </head>
   <body>
+    <header>
+      <img src="//dupunkto.org/press/dupunkto-avatar-1000x1000.png" width="75" height="75">
+    </header>
+
     <h1>Improving the world line by line, using code.</h1>
 
     <p>
       {du}punkto is a small hacker<sup><small>*</small></sup> collective consisting of
       four teenagers (<a href="//geheimesite.nl">Robin</a>, <a href="/~pot">Pot</a>,
-      <a href="//gijs6.nl">Gijs6</a>, and <a href="//m1kadev.nl">Mika</a>)
+      <a href="//gijs6.nl">Gijs</a>, and <a href="//m1kadev.nl">Mika</a>)
       from the Netherlands. We aspire to make a positive impact on the world by writing
       great software.
     </p>
@@ -50,6 +87,66 @@
       and services needed to develop and maintain all that.
     </p>
 
+    <section>
+      <h2 hidden>Current research</h2>
+
+      <p>
+        <a class="t" href="//git.dupunkto.org/dupunkto/somtomorrow">Somtomorrow</a>, a
+        prototype next-gen cross-platform Somtoday client that's actually good.
+      </p>
+
+      <p>
+        <a class="t" href="//git.dupunkto.org/scttr/pubb">Scatterpubb</a>, a
+        yet-to-be-named project that explores ways to blend websites, social media
+        and collaboration on the Web, by implementing an
+        <a href="//gilest.org/indie-easy.html">easy-to-use</a> website engine
+        powered by various open standards.
+      </p>
+    </section>
+
+    <section>
+      <h2>Other projects</h2>
+
+      <p>
+        <a class="t" href="//git.dupunkto.org/dupunkto/gitz">Gitz</a>, an awesome
+        Git frontend written in PHP.
+      </p>
+
+      <p>
+        <a class="t" href="//git.dupunkto.org/dupunkto/cipher">Cipher</a>, a tool for
+        securely sending and receiving passphrases and API keys.
+      </p>
+
+      <p>
+        <a class="t" href="//git.dupunkto.org/dupunkto/tools">Tools</a>, useful web-based tools for everyday (development or design) tasks. 
+      </p>
+    </section>
+
+    <section>
+      <h2>Past projects</h2>
+
+      <p>
+        <a class="t" href="//git.dupunkto.org/dupunkto/oblikvo">Oblikvo</a>, a
+        browser-based 3D first-person shooter with old school graphics and
+        multiplayer support.
+      </p>
+
+      <p>
+        <a class="t" href="//git.dupunkto.org/dupunkto/kodo">Kodo</a>, a game that's under 2kb so it fits in a QR code; also its all in one url.
+      </p>
+
+      <p>
+        <a class="t" href="//git.dupunkto.org/dupunkto/linio">Linio</a>, a local-first 
+        note system centered around plain text files.
+      </p>
+
+      <!-- <p>
+        <a class="t">Radiotopian</a>, a browser-based 3D exploration game with
+        randomly generated terrain. (Or: Open-world resource-gathering survival
+        game written using p5js.)
+      </p> -->
+    </section>
+
     <p>
       <small>
         <a href="//www.catb.org/~esr/jargon/html/H/hacker.html">Hacking</a> is a
@@ -60,66 +157,7 @@
       </small>
     </p>
 
-    <h2>Current research</h2>
-
-    <p>
-      <a class="t" href="//git.dupunkto.org/dupunkto/gitz">Gitz</a>, an awesome
-      Git frontend written in PHP.
-    </p>
-
-    <p>
-      <a class="t" href="//git.dupunkto.org/dupunkto/cipher">Cipher</a>, a tool for
-      securely sending and receiving passphrases and API keys.
-    </p>
-
-    <p>
-      <a class="t" href="//git.dupunkto.org/dupunkto/linio">Linio</a>, a local-first 
-      note system centered around plain text files.
-    </p>
-
-    <p>
-      <a class="t" href="//git.dupunkto.org/dupunkto/somtomorrow">Somtomorrow</a>, a
-      prototype next-gen cross-platform Somtoday client that's actually good.
-    </p>
-    
-    <h2>Sister projects</h2>
-
-    <p>
-      <a class="t" href="//git.dupunkto.org/scttr/pubb">Scatterpubb</a>, a
-      yet-to-be-named project that explores ways to blend websites, social media
-      and collaboration on the Web, by implementing an
-      <a href="//gilest.org/indie-easy.html">easy-to-use</a> website engine
-      powered by various open standards.
-    </p>
-
-    <p>
-      <a class="t" href="//git.dupunkto.org/havas/havas">Havas</a>, a prototype
-      CMS for news articles.
-    </p>
-
-    <h2>Past projects</h2>
-
-    <!--<p>
-      <a class="t">Radiotopian</a>, a browser-based 3D exploration game with
-      randomly generated terrain. (Or: Open-world resource-gathering survival
-      game written using p5js.)
-    </p>-->
-
-    <p>
-      <a class="t" href="//git.dupunkto.org/dupunkto/oblikvo">Oblikvo</a>, a
-      browser-based 3D first-person shooter with old school graphics and
-      multiplayer support.
-    </p>
-
-    <!--
-    <h2>Why?</h2>
-
-    <p>
-      Why not?
-    </p>
-    -->
-
-    <h2>What's with the name?</h2>
+    <!-- <h2>What's with the name?</h2>
 
     <p>
       {du}punkto is derived from the Esperanto word <dfn>dupunkto</dfn>, which
@@ -137,12 +175,6 @@
     <p>
       {du}punkto is primarily maintainted by Robin. Find him and his contact
       details on <a href="//geheimesite.nl">his personal site</a>.
-    </p>
-
-    <footer>
-      <small>
-        ED25519 fingerprint: SHA256:Nw3G7rq8J3+TxAHKXOvl/ka2eoFN9n2Q9RMF+oS05dY.
-      </small>
-    </footer>
+    </p> -->
   </body>
 </html>

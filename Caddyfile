@@ -2,6 +2,7 @@
 
 handle @dupunkto {
   redir /~potsjem /~pot
+  redir /tools https://tools.dupunkto.org
   redir /rss https://wiki.dupunkto.org/RSS
   redir /guide https://wiki.dupunkto.org/StyleGuide
   redir /tilde https://geheimesite.nl/blog/tilde

@@ -47,6 +47,10 @@
         font-size: 1.2em;
       }
 
+      main {
+        max-width: 680px;
+      }
+
       section {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -82,31 +86,34 @@
       <img src="//dupunkto.org/press/dupunkto-avatar-1000x1000.png" width="75" height="75">
     </header>
 
-    <h1>Improving the world line by line, using code.</h1>
+    <main>
+      <h1>Improving the world line by line, using code.</h1>
 
-    <p>
-      {du}punkto is a small hacker<sup><small>*</small></sup> collective consisting of
-      four teenagers (<a href="//geheimesite.nl">Robin</a>, <a href="/~pot">Pot</a>,
-      <a href="//gijs6.nl">Gijs</a>, and <a href="//m1kadev.nl">Mika</a>)
-      from the Netherlands. We aspire to make a positive impact on the world by writing
-      great software.
-    </p>
+      <p>
+        {du}punkto is a small hacker<sup><small>*</small></sup> collective consisting of
+        four teenagers (<a href="//geheimesite.nl">Robin</a>, <a href="/~pot">Pot</a>,
+        <a href="//gijs6.nl">Gijs</a>, and <a href="//m1kadev.nl">Mika</a>)
+        from the Netherlands. We aspire to make a positive impact on the world by writing
+        great software.
+      </p>
 
-    <p>
-      On this site, we host some of our projects, 
-      <a href="//wiki.dupunkto.org">our wiki</a>,
-      <a href="//git.dupunkto.org">our repos</a>
-      and services needed to develop and maintain all that.
-    </p>
+      <p>
+        On this site, we host some of our projects, 
+        <a href="//wiki.dupunkto.org">our wiki</a>,
+        <a href="//git.dupunkto.org">our repos</a>
+        and services needed to develop and maintain all that.
+      </p>
+    </main>
 
     <section>
       <h2 hidden>Current research</h2>
 
       <p>
-        <a class="t" href="//git.dupunkto.org/scttr/pubb">Scatterpubb</a>, exploring ways to blend websites, social media
-        and collaboration on the Web, by implementing an
-        <a href="//gilest.org/indie-easy.html">easy-to-use</a> website engine
-        powered by open standards.
+        <a class="t" href="//git.dupunkto.org/dupunkto/everything">Everything</a>, an operating system for your life. A single app for calendars, task management, time tracking, bookmarks, wishlists, reminders, notes, and e-mail.
+      </p>
+
+      <p>
+        <a class="t" href="//git.dupunkto.org/dupunkto/pubb">Pubb</a>, a website engine powered by open standards, exploring ways to blend websites, social media and collaboration on the Web. Built to be <a href="//gilest.org/indie-easy.html">easy</a> and personal.
       </p>
     </section>
 
@@ -128,6 +135,24 @@
       </p>
     </section>
 
+    <!--
+    <section>
+      <h2>Infrastructure</h2>
+
+      <p>
+        <a class="t" href="//git.dupunkto.org/dupunkto/nym">Nym</a>, an authentication layer and identity provider.
+      </p>
+
+      <p>
+        <a class="t" href="//git.dupunkto.org/dupunkto/mesh">Mesh</a>, a distributed uptime monitor.
+      </p>
+
+      <p>
+        <a class="t" href="//git.dupunkto.org/dupunkto/scry">Scry</a>, a unified version control system used across applications.
+      </p>
+    </section>
+    -->
+
     <section>
       <h2>Past projects</h2>
 
@@ -139,11 +164,6 @@
 
       <p>
         <a class="t" href="//git.dupunkto.org/dupunkto/kodo">Kodo</a>, a game that's under 2kb so it fits in a QR code; also its all in one url.
-      </p>
-
-      <p>
-        <a class="t" href="//git.dupunkto.org/dupunkto/linio">Linio</a>, a local-first 
-        note system centered around plain text files.
       </p>
 
       <!-- <p>

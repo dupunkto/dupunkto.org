@@ -6,9 +6,6 @@ handle @dupunkto {
   redir /guide https://wiki.dupunkto.org/StyleGuide
   redir /tilde https://geheimesite.nl/blog/tilde
 
-  @tools path /tools /tools/*
-  handle @tools {
-    uri strip_prefix /tools
-    redir https://tools.dupunkto.org{uri}
-  }
+  @tools path_regexp tools ^/tools(/.*)?$
+  redir @tools https://tools.dupunkto.org{re.tools.1}
 }

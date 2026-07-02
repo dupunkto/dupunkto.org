@@ -18,7 +18,23 @@
       body {
         max-width: 960px;
         padding: 7px;
-        margin: 3em auto;
+        margin: 2.5em auto;
+        overflow-x: hidden;
+      }
+
+      main, pre {
+        color: white;
+      }
+
+      main::before {
+        content: "";
+        background: #8853d4;
+        position: absolute;
+        width: 200vw;
+        height: calc(100% + 4em);
+        top: -2em;
+        left: -100vw;
+        z-index: -1;
       }
 
       header {
@@ -49,6 +65,9 @@
 
       main {
         max-width: 660px;
+        position: relative;
+        margin-top: 3em;
+        margin-bottom: 3em;
       }
 
       section {
@@ -70,7 +89,7 @@
         float: right;
         transform: scaleX(-1);
         width: fit-content;
-        margin: 2em 0;
+        margin: 3.5em 0;
       }
     </style>
 

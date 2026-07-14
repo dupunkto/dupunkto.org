@@ -14,7 +14,16 @@
       content="{du}punkto is a small hacker collective based in the Netherlands."
     />
 
+    <link
+      rel="stylesheet"
+      href="https://fonts.bunny.net/css?family=fira-sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+    />
+
     <style>
+      :root {
+        --font-sans: Fira Sans, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, avenir next, avenir, segoe ui, helvetica neue, Adwaita Sans, roboto, noto, helvetica, arial, sans-serif;
+      }
+
       body {
         max-width: 960px;
         padding: 7px;
@@ -50,6 +59,12 @@
         text-align: right;
       }
 
+      main p, section p {
+        font-family: var(--font-sans);
+        font-size: 0.95em;
+        line-height: 1.6;
+      }
+
       nav {
         display: flex;
         gap: .5em;
@@ -57,11 +72,13 @@
       }
 
       .t {
+        font-family: serif;
         color: light-dark(#6236a0, #b783ff);
         text-decoration-color: light-dark(#653d9e, #ae78f9);
         text-underline-offset: 4px;
         font-weight: bold;
-        font-size: 1.3em;
+        font-size: 1.4em;
+        line-height: 0;
       }
 
       main {

@@ -1,6 +1,9 @@
 @dupunkto host dupunkto.org
 
 handle @dupunkto {
+  @webfinger path /.well-known/webfinger
+  reverse_proxy @webfinger nym:80
+
   redir /~potsjem /~pot
   redir /rss https://wiki.dupunkto.org/RSS
   redir /guide https://wiki.dupunkto.org/StyleGuide

@@ -12,3 +12,10 @@ handle @dupunkto {
   @tools path_regexp tools ^/tools(/.*)?$
   redir @tools https://tools.dupunkto.org{re.tools.1}
 }
+
+@support host support.dupunkto.org
+
+handle @support {
+  @webfinger path /.well-known/webfinger
+  reverse_proxy @webfinger nym:80
+}

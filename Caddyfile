@@ -1,6 +1,9 @@
 @dupunkto host dupunkto.org
 
 handle @dupunkto {
+  # Quite effective spam protection
+  redir /contact mailto:void@dupunkto.org?{query} permanent
+
   @webfinger path /.well-known/webfinger
   reverse_proxy @webfinger nym:80
 
